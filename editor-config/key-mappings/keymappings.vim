@@ -9,6 +9,7 @@
 "          |___/                |_|   |_|            |___/     
    
 
+   inoremap hj <Esc>
    "Hides and shows NERDTree"
     map <C-n> :NERDTreeToggle<CR>
     "Files on tree directory"
