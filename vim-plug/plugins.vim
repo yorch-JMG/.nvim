@@ -33,6 +33,7 @@ endif
     Plug 'leafgarland/typescript-vim'
     Plug 'pangloss/vim-javascript'
     Plug 'MaxMEllon/vim-jsx-pretty'
+    Plug 'peitalin/vim-jsx-typescript'
     "Dart support"
     Plug 'dart-lang/dart-vim-plugin'
     "Flutter"
