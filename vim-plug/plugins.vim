@@ -29,6 +29,10 @@ endif
     Plug 'neoclide/coc.nvim', { 'branch': 'release' }
     "Vue syntax higlighting"
     Plug 'posva/vim-vue'
+    "JS dev helpers"
+    Plug 'leafgarland/typescript-vim'
+    Plug 'pangloss/vim-javascript'
+    Plug 'MaxMEllon/vim-jsx-pretty'
     "Dart support"
     Plug 'dart-lang/dart-vim-plugin'
     "Flutter"
