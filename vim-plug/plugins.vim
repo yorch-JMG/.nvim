@@ -18,11 +18,14 @@ endif
 
     "Easymotion to move quickly between lines"
     Plug 'easymotion/vim-easymotion'
+    "Omnisharp for vim C#"
+    Plug 'OmniSharp/omnisharp-vim'
     "Airline"
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     " Plug in to make html development faster"
     Plug 'mattn/emmet-vim'
+    Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
     " Better Syntax Support"
     Plug 'sheerun/vim-polyglot'
     " Conquer of completion, fast autocomplete"

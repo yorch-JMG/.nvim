@@ -10,6 +10,8 @@
    
 
    inoremap jh <Esc>
+   nnoremap H gT
+   nnoremap L gt
    "Hides and shows NERDTree"
     map <C-n> :NERDTreeToggle<CR>
     "Files on tree directory"
