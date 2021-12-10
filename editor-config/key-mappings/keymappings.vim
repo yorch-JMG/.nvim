@@ -12,20 +12,20 @@
    inoremap jh <Esc>
    nnoremap H gT
    nnoremap L gt
+    nmap <leader>rs :source ~/.config/nvim/init.vim<CR>
    "Hides and shows NERDTree"
     map <C-n> :NERDTreeToggle<CR>
     "Files on tree directory"
     nmap <leader>f :Files<CR>
     "Search in lines of buffer"
     nmap <leader>l :BLines<CR>
+    nmap <leader>fl :Rg!<CR>
     "Commits on branch"
     nmap <leader>c :BCommits<CR>
     "Git files status"
     nmap <leader>gfs :GFiles?<CR>
     "Files in repo"
     nmap <leader>gf :GFiles<CR>
-    "Change colorscheme for session"
-    nmap <leader>ccs :Colors<CR>
     "Emergency Exit"
     nmap <leader>ee :q!<CR>
     "Exit and Save"
@@ -48,7 +48,9 @@
     nmap <leader>gpl :Git pull<CR>
     "Substitut"
     nmap <leader>S :%s//g<left><left>
-    "Flutter run"
+    nmap <leader>ccs :colorscheme<space>
+
+   "Flutter run"
     nnoremap <leader>fa :FlutterRun<cr>
     nnoremap <leader>fq :FlutterQuit<cr>
     nnoremap <leader>fr :FlutterHotReload<cr>

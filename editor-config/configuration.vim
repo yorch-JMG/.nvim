@@ -13,12 +13,12 @@ set t_Co=256
 set number
 set relativenumber
 
-colorscheme PaperColor
-let g:airline_theme='term'
-hi Normal guibg=NONE ctermbg=NONE
-hi LineNr guibg=NONE ctermbg=NONE
-hi SignColumn guibg=NONE ctermbg=NONE
-hi EndOfBuffer guibg=NONE ctermbg=NONE
+let g:airline_theme='jellybeans' 
+colorscheme jellybeans
+hi Normal guibg='000000' ctermbg=NONE
+hi LineNr guibg='000000' ctermbg=NONE
+hi SignColumn guibg='000000' ctermbg=NONE
+hi EndOfBuffer guibg='000000' ctermbg=NONE
 autocmd BufNew,BufRead *.asm :set ft=asm	
 let NERDTreeQuitOnOpen = 1
 

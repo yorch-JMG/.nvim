@@ -37,6 +37,7 @@ endif
     Plug 'pangloss/vim-javascript'
     Plug 'MaxMEllon/vim-jsx-pretty'
     Plug 'peitalin/vim-jsx-typescript'
+    Plug 'ap/vim-css-color'
     "Dart support"
     Plug 'dart-lang/dart-vim-plugin'
     "Flutter"
@@ -52,10 +53,15 @@ endif
     Plug 'junegunn/fzf.vim'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
+    Plug 'andymass/vim-matchup'
     " IndentLine for easier interpretation of code blocks"
     Plug 'Yggdroot/indentLine'
     " Colorscheme plugin"
-    Plug 'NLKNguyen/papercolor-theme'
+    Plug 'sainnhe/gruvbox-material'
+    Plug 'doums/darcula'
+    Plug 'morhetz/gruvbox'
+    Plug 'nanotech/jellybeans.vim'
+    Plug 'dunstontc/vim-vscode-theme'
 
     call plug#end()
 
