@@ -44,6 +44,7 @@ endif
     Plug 'thosakwe/vim-flutter'
     "File Explorer"
     Plug 'scrooloose/NERDTree'
+    Plug 'ryanoasis/vim-devicons'
     " Find differences in file with git repo"
     Plug 'airblade/vim-gitgutter' 
     " fugitive to make git operations efficiently and painless"
@@ -62,6 +63,7 @@ endif
     Plug 'morhetz/gruvbox'
     Plug 'nanotech/jellybeans.vim'
     Plug 'dunstontc/vim-vscode-theme'
+    Plug 'folke/tokyonight.nvim'
 
     call plug#end()
 

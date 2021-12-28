@@ -16,7 +16,9 @@
    "Hides and shows NERDTree"
     map <C-n> :NERDTreeToggle<CR>
     "Files on tree directory"
-    nmap <leader>f :Files<CR>
+    nmap <leader>tf :Files<CR>
+    "Files tracked by Git"
+    nmap <leader>f :GFiles<CR>
     "Search in lines of buffer"
     nmap <leader>l :BLines<CR>
     nmap <leader>fl :Rg!<CR>
