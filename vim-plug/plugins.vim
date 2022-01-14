@@ -45,7 +45,9 @@ endif
     "File Explorer"
     Plug 'scrooloose/NERDTree'
     Plug 'ryanoasis/vim-devicons'
-    " Find differences in file with git repo"
+    "Nerd commenter"
+    Plug 'preservim/nerdcommenter'
+    "Find differences in file with git repo"
     Plug 'airblade/vim-gitgutter' 
     " fugitive to make git operations efficiently and painless"
     Plug 'tpope/vim-fugitive'
@@ -62,8 +64,12 @@ endif
     Plug 'doums/darcula'
     Plug 'morhetz/gruvbox'
     Plug 'nanotech/jellybeans.vim'
+    Plug 'NLKNguyen/papercolor-theme'
     Plug 'dunstontc/vim-vscode-theme'
     Plug 'folke/tokyonight.nvim'
+    Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install --frozen-lockfile --production',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
 
     call plug#end()
 

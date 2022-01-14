@@ -13,14 +13,14 @@ set t_Co=256
 set number
 set relativenumber
 
-colorscheme jellybeans 
+colorscheme	jellybeans 
 let g:airline_theme='minimalist'
 hi Normal ctermbg=NONE
 hi SignColumn guibg=NONE ctermbg=NONE
 hi EndOfBuffer guibg=NONE ctermbg=NONE
 autocmd BufNew,BufRead *.asm :set ft=asm	
 let NERDTreeQuitOnOpen = 1
-
+let g:prettier#autoformat = 1
 let mapleader = " "
 let g:user_emmet_leader_key = ","
 
