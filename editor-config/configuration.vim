@@ -13,7 +13,7 @@ set t_Co=256
 set number
 set relativenumber
 
-colorscheme	jellybeans 
+colorscheme	PaperColor 
 let g:airline_theme='minimalist'
 hi Normal ctermbg=NONE
 hi SignColumn guibg=NONE ctermbg=NONE

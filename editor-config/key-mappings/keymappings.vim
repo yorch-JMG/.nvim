@@ -19,6 +19,8 @@
     nmap <leader>tf :Files<CR>
     "Files tracked by Git"
     nmap <leader>f :GFiles<CR>
+    "Files in directory"
+    nmap <leader>ff :Files<CR>
     "Search in lines of buffer"
     nmap <leader>l :BLines<CR>
     nmap <leader>fl :Rg!<CR>
