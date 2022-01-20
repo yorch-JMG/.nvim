@@ -13,7 +13,7 @@ set t_Co=256
 set number
 set relativenumber
 
-colorscheme	base16-default-dark 
+colorscheme rose-pine 
 let g:airline_theme='minimalist'
 hi Normal ctermbg=NONE guibg=NONE
 hi LineNr ctermbg=NONE guibg=NONE

@@ -50,6 +50,7 @@ endif
     " IndentLine for easier interpretation of code blocks"
     Plug 'Yggdroot/indentLine'
     " Colorscheme plugin"
+    Plug 'rose-pine/neovim'
     Plug 'sainnhe/gruvbox-material'
     Plug 'doums/darcula'
     Plug 'morhetz/gruvbox'
