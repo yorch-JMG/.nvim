@@ -18,30 +18,20 @@ endif
 
     "Easymotion to move quickly between lines"
     Plug 'easymotion/vim-easymotion'
-    "Omnisharp for vim C#"
-    Plug 'OmniSharp/omnisharp-vim'
+    "Treesitter"
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+    Plug 'neovim/nvim-lspconfig'
+    Plug 'hrsh7th/cmp-nvim-lsp'
+    Plug 'hrsh7th/cmp-buffer'
+    Plug 'hrsh7th/cmp-path'
+    Plug 'hrsh7th/cmp-cmdline'
+    Plug 'hrsh7th/nvim-cmp'
     "Airline"
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     " Plug in to make html development faster"
     Plug 'mattn/emmet-vim'
     Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
-    " Better Syntax Support"
-    Plug 'sheerun/vim-polyglot'
-    " Conquer of completion, fast autocomplete"
-    Plug 'neoclide/coc.nvim', { 'branch': 'release' }
-    "Vue syntax higlighting"
-    Plug 'posva/vim-vue'
-    "JS dev helpers"
-    Plug 'leafgarland/typescript-vim'
-    Plug 'pangloss/vim-javascript'
-    Plug 'MaxMEllon/vim-jsx-pretty'
-    Plug 'peitalin/vim-jsx-typescript'
-    Plug 'ap/vim-css-color'
-    "Dart support"
-    Plug 'dart-lang/dart-vim-plugin'
-    "Flutter"
-    Plug 'thosakwe/vim-flutter'
     "File Explorer"
     Plug 'scrooloose/NERDTree'
     Plug 'ryanoasis/vim-devicons'
