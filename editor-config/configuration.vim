@@ -13,11 +13,11 @@ set t_Co=256
 set number
 set relativenumber
 
-colorscheme	PaperColor 
+colorscheme	base16-default-dark 
 let g:airline_theme='minimalist'
-hi Normal ctermbg=NONE
+hi Normal ctermbg=NONE guibg=NONE
+hi LineNr ctermbg=NONE guibg=NONE
 hi SignColumn guibg=NONE ctermbg=NONE
-hi EndOfBuffer guibg=NONE ctermbg=NONE
 autocmd BufNew,BufRead *.asm :set ft=asm	
 let NERDTreeQuitOnOpen = 1
 let g:prettier#autoformat = 1

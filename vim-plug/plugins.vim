@@ -66,6 +66,7 @@ endif
     Plug 'nanotech/jellybeans.vim'
     Plug 'NLKNguyen/papercolor-theme'
     Plug 'dunstontc/vim-vscode-theme'
+    Plug 'chriskempson/base16-vim'
     Plug 'folke/tokyonight.nvim'
     Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install --frozen-lockfile --production',
