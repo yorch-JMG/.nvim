@@ -16,7 +16,7 @@
    "Hides and shows NERDTree"
     map <C-n> :NERDTreeToggle<CR>
     "Files in directory"
-    nmap <leader>ff :Telescope find_files<CR>
+    nmap <leader>f :Telescope find_files<CR>
     "Search in lines of buffer"
     nmap <leader>l :BLines<CR>
     nmap <leader>fl :Rg!<CR>
