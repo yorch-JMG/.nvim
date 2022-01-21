@@ -81,4 +81,7 @@ lua <<EOF
   require'lspconfig'.vimls.setup {
     capabilities = capabilities
  }
+  require'lspconfig'.hls.setup {
+    capabilities = capabilities
+ }
 EOF

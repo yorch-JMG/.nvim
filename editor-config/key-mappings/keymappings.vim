@@ -15,12 +15,8 @@
     nmap <leader>rs :source ~/.config/nvim/init.vim<CR>
    "Hides and shows NERDTree"
     map <C-n> :NERDTreeToggle<CR>
-    "Files on tree directory"
-    nmap <leader>tf :Files<CR>
-    "Files tracked by Git"
-    nmap <leader>f :GFiles<CR>
     "Files in directory"
-    nmap <leader>ff :Files<CR>
+    nmap <leader>ff :Telescope find_files<CR>
     "Search in lines of buffer"
     nmap <leader>l :BLines<CR>
     nmap <leader>fl :Rg!<CR>
