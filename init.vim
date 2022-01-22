@@ -16,13 +16,14 @@ lua <<EOF
     incremental_selection = { enable = true },
     textobjects = { enable = true },
   }
+  require('telescope').setup{ defaults = { file_ignore_patterns = {"node_modules"} } }
    local cmp = require'cmp'
 
   cmp.setup({
     snippet = {
       -- REQUIRED - you must specify a snippet engine
       expand = function(args)
-        vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` users.
+	 vim.fn["vsnip#anonymous"](args.body)
         -- require('luasnip').lsp_expand(args.body) -- For `luasnip` users.
         -- require('snippy').expand_snippet(args.body) -- For `snippy` users.
         -- vim.fn["UltiSnips#Anon"](args.body) -- For `ultisnips` users.
