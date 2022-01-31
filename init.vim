@@ -17,7 +17,7 @@ lua <<EOF
     textobjects = { enable = true },
   }
 require('telescope').setup({
-file_ignore_patterns = {"./node_modules/*", "node_modules", "^node_modules/*", "node_modules/*", "./autoload/*", "autoload", "^autoload/*"}
+	defaults = { file_ignore_patterns = {"node_modules", "autoload"} }
 })
    local cmp = require'cmp'
 
