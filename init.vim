@@ -16,7 +16,9 @@ lua <<EOF
     incremental_selection = { enable = true },
     textobjects = { enable = true },
   }
-require('telescope').setup()
+require('telescope').setup({
+file_ignore_patterns = {"./node_modules/*", "node_modules", "^node_modules/*", "node_modules/*", "./autoload/*", "autoload", "^autoload/*"}
+})
    local cmp = require'cmp'
 
   cmp.setup({
