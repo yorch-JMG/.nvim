@@ -28,10 +28,13 @@ endif
     Plug 'hrsh7th/nvim-cmp'
     Plug 'hrsh7th/cmp-vsnip'
     Plug 'hrsh7th/vim-vsnip'
+		Plug 'simrat39/rust-tools.nvim'
 
     "Telescope"
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
+		Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+		Plug 'junegunn/fzf.vim'
     "Airline"
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
@@ -47,9 +50,6 @@ endif
     Plug 'airblade/vim-gitgutter' 
     " fugitive to make git operations efficiently and painless"
     Plug 'tpope/vim-fugitive'
-    " fuzzyfinder"
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'junegunn/fzf.vim'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     Plug 'andymass/vim-matchup'

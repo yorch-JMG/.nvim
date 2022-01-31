@@ -16,7 +16,7 @@
    "Hides and shows NERDTree"
     map <C-n> :NERDTreeToggle<CR>
     "Files in directory"
-    nmap <leader>f :Telescope find_files<CR>
+		nmap <leader>f :Telescope find_files<CR>
     "Search in lines of buffer"
     nmap <leader>l :BLines<CR>
     nmap <leader>fl :Rg!<CR>
@@ -46,6 +46,8 @@
     nmap <leader>gph :Git push<CR>
     "Git pull changes to local repo"
     nmap <leader>gpl :Git pull<CR>
+		nmap <leader>gl :diffget //3<CR>
+		nmap <leader>gh :diffget //2<CR>
     "Substitut"
     nmap <leader>S :%s//g<left><left>
     nmap <leader>ccs :colorscheme<space>

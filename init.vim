@@ -16,7 +16,7 @@ lua <<EOF
     incremental_selection = { enable = true },
     textobjects = { enable = true },
   }
-  require('telescope').setup{ defaults = { file_ignore_patterns = {"node_modules"} } }
+require('telescope').setup()
    local cmp = require'cmp'
 
   cmp.setup({
@@ -85,4 +85,5 @@ lua <<EOF
   require'lspconfig'.hls.setup {
     capabilities = capabilities
  }
+ require('rust-tools').setup({})
 EOF
