@@ -14,6 +14,7 @@ set termguicolors
 set t_Co=256
 set number
 set relativenumber
+set clipboard=unnamedplus
 
 colorscheme rose-pine 
 let g:airline_theme= 'minimalist'

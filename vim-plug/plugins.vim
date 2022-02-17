@@ -15,6 +15,7 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
   "autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
     call plug#begin('~/.config/nvim/autoload/plugged')
+		Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
     "Easymotion to move quickly between lines"
     Plug 'easymotion/vim-easymotion'

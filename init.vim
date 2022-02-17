@@ -88,4 +88,17 @@ require('telescope').setup({
     capabilities = capabilities
  }
  require('rust-tools').setup({})
+ require('lspconfig').cssls.setup({})
+ require('lspconfig').tailwindcss.setup({})
+ require('lspconfig').gopls.setup {
+    cmd = {"gopls", "serve"},
+    settings = {
+      gopls = {
+        analyses = {
+          unusedparams = true,
+        },
+        staticcheck = true,
+      },
+    },
+  }
 EOF
