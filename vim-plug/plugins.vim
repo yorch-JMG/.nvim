@@ -36,11 +36,12 @@ endif
     Plug 'nvim-telescope/telescope.nvim'
 		Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 		Plug 'junegunn/fzf.vim'
+
     "Airline"
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     " Plug in to make html development faster"
-    Plug 'mattn/emmet-vim'
+		Plug 'mattn/emmet-vim'
     Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
     "File Explorer"
     Plug 'scrooloose/NERDTree'
@@ -60,12 +61,13 @@ endif
     Plug 'rose-pine/neovim'
     Plug 'sainnhe/gruvbox-material'
     Plug 'doums/darcula'
+		Plug 'dracula/vim', { 'as': 'dracula' }
     Plug 'morhetz/gruvbox'
     Plug 'nanotech/jellybeans.vim'
     Plug 'NLKNguyen/papercolor-theme'
     Plug 'dunstontc/vim-vscode-theme'
     Plug 'chriskempson/base16-vim'
-    Plug 'folke/tokyonight.nvim'
+
     Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install --frozen-lockfile --production',
   \ 'branch': 'release/0.x'

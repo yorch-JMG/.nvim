@@ -1,4 +1,3 @@
-
 "                   __ _       
 "                  / _(_)      
 "   ___ ___  _ __ | |_ _  __ _ 
@@ -10,17 +9,17 @@
 
 set guifont=JetBrainsMono\ Nerd\ Font:h10:cANSI
 let g:airline_powerline_fonts=1
-set termguicolors
 set t_Co=256
-set number
-set relativenumber
 set clipboard=unnamedplus
 
-colorscheme rose-pine 
-let g:airline_theme= 'minimalist'
-hi Normal ctermbg=NONE guibg=NONE
-hi LineNr ctermbg=NONE guibg=NONE
+colorscheme gruvbox
 hi SignColumn guibg=NONE ctermbg=NONE
+hi LineNr ctermbg=NONE guibg=NONE
+hi Normal ctermbg=NONE guibg=NONE
+set termguicolors
+set number
+set relativenumber
+let g:airline_theme= 'minimalist'
 set tabstop=2
 set shiftwidth=2
 set timeoutlen=300
