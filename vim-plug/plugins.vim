@@ -67,11 +67,11 @@ endif
     Plug 'NLKNguyen/papercolor-theme'
     Plug 'dunstontc/vim-vscode-theme'
     Plug 'chriskempson/base16-vim'
-
-    Plug 'prettier/vim-prettier', {
+		Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install --frozen-lockfile --production',
   \ 'branch': 'release/0.x'
   \ }
+
     call plug#end()
 
 

@@ -48,9 +48,14 @@
     nmap <leader>gpl :Git pull<CR>
 		nmap <leader>gl :diffget //3<CR>
 		nmap <leader>gh :diffget //2<CR>
-    "Substitut"
+		"open terminal below"
+		nnoremap <leader>ttt :split<CR>:ter<CR>:resize 15<CR>:set nonu<CR>:set nornu<CR>i
+		tnoremap <leader>nn <Esc> <C-\><C-n>
+		nnoremap <leader>jj <C-w><C-w><CR>
+		"Substitut"
     nmap <leader>S :%s//g<left><left>
     nmap <leader>ccs :colorscheme<space>
+
 
    "Flutter run"
     nnoremap <leader>fa :FlutterRun<cr>

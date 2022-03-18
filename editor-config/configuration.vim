@@ -12,6 +12,8 @@ let g:airline_powerline_fonts=1
 set t_Co=256
 set clipboard=unnamedplus
 
+set splitbelow
+set shell=/bin/zsh
 colorscheme gruvbox
 hi SignColumn guibg=NONE ctermbg=NONE
 hi LineNr ctermbg=NONE guibg=NONE
