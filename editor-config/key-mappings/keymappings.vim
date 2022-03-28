@@ -49,7 +49,9 @@
 		nmap <leader>gl :diffget //3<CR>
 		nmap <leader>gh :diffget //2<CR>
 		"open terminal below"
-		nnoremap <leader>ttt :let $VIM_DIR=expand('%:p:h')<CR>:split<CR>:ter<CR>:resize 15<CR>:set nonu<CR>:set nornu<CR>Acd $VIM_DIR<CR>clear<CR>
+		nnoremap <c-t> :let $VIM_DIR=expand('%:p:h')<CR>:split<CR>:ter<CR>:resize 15<CR>:set nonu<CR>:set nornu<CR>Acd $VIM_DIR<CR>clear<CR>
+		nnoremap <silent> <up> :resize +5<CR>
+		nnoremap <silent> <down> :resize -5<CR>
 		tnoremap <leader>nn <Esc> <C-\><C-n>
 		nnoremap <leader>jj <C-w><C-w><CR>
 		"Substitut"
