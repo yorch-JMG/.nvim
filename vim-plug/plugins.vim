@@ -37,7 +37,10 @@ endif
 		Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 		Plug 'junegunn/fzf.vim'
 
-    "Airline"
+		"LUA colorizer"
+		Plug 'norcalli/nvim-colorizer.lua'
+
+		"Airline"
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     " Plug in to make html development faster"
@@ -67,6 +70,7 @@ endif
     Plug 'NLKNguyen/papercolor-theme'
     Plug 'dunstontc/vim-vscode-theme'
     Plug 'chriskempson/base16-vim'
+		Plug 'bluz71/vim-moonfly-colors'
 		Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install --frozen-lockfile --production',
   \ 'branch': 'release/0.x'

@@ -10,6 +10,7 @@ source $HOME/.config/nvim/editor-config/configuration.vim
 source $HOME/.config/nvim/editor-config/key-mappings/keymappings.vim
 
 lua <<EOF
+	require'colorizer'.setup()
   require'nvim-treesitter.configs'.setup {
     -- Modules and its options go here
     highlight = { enable = true },

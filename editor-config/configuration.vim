@@ -14,7 +14,7 @@ set clipboard=unnamedplus
 
 set splitbelow
 set shell=/bin/zsh
-colorscheme gruvbox
+colorscheme moonfly
 hi SignColumn guibg=NONE ctermbg=NONE
 hi LineNr ctermbg=NONE guibg=NONE
 hi Normal ctermbg=NONE guibg=NONE
