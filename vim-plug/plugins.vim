@@ -17,6 +17,7 @@ endif
     call plug#begin('~/.config/nvim/autoload/plugged')
 		Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
+		Plug 'fatih/vim-go'
     "Easymotion to move quickly between lines"
     Plug 'easymotion/vim-easymotion'
     "Treesitter"
