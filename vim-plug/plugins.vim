@@ -18,6 +18,8 @@ endif
 		Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
 		Plug 'fatih/vim-go'
+		Plug 'rust-lang/rust.vim'
+
     "Easymotion to move quickly between lines"
     Plug 'easymotion/vim-easymotion'
     "Treesitter"

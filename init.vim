@@ -7,8 +7,7 @@
                                  
 source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/editor-config/configuration.vim
-source $HOME/.config/nvim/editor-config/key-mappings/keymappings.vim
-
+source $HOME/.config/nvim/editor-config/key-mappings/keymappings.vim 
 lua <<EOF
 	require'colorizer'.setup()
   require'nvim-treesitter.configs'.setup {
