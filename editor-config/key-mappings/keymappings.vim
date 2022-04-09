@@ -54,10 +54,11 @@
 		nnoremap <silent> <down> :resize -5<CR>
 		tnoremap <leader>nn <Esc> <C-\><C-n>
 		nnoremap <leader>jj <C-w><C-w><CR>
-		"Substitut"
+		"Substitute"
     nmap <leader>S :%s//g<left><left>
     nmap <leader>ccs :colorscheme<space>
 
+		nmap <leader>cs :OmniSharpCodeFormat<CR>
 
    "Flutter run"
     nnoremap <leader>fa :FlutterRun<cr>

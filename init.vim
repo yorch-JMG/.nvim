@@ -90,6 +90,7 @@ require('telescope').setup({
  require('rust-tools').setup({})
  require('lspconfig').cssls.setup({})
  require('lspconfig').tailwindcss.setup({})
+ require('lspconfig').csharp_ls.setup({})
  require('lspconfig').gopls.setup {
     cmd = {"gopls", "serve"},
     settings = {

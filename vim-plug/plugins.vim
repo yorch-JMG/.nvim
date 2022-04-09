@@ -52,7 +52,7 @@ endif
     "File Explorer"
     Plug 'scrooloose/NERDTree'
     Plug 'ryanoasis/vim-devicons'
-    "Nerd commenter"
+		"Nerd commenter"
     Plug 'preservim/nerdcommenter'
     "Find differences in file with git repo"
     Plug 'airblade/vim-gitgutter' 
@@ -63,6 +63,7 @@ endif
     Plug 'andymass/vim-matchup'
     " IndentLine for easier interpretation of code blocks"
     Plug 'Yggdroot/indentLine'
+		Plug 'Omnisharp/omnisharp-vim'
     " Colorscheme plugin"
     Plug 'rose-pine/neovim'
     Plug 'sainnhe/gruvbox-material'
