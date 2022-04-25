@@ -62,7 +62,7 @@ endif
     Plug 'jiangmiao/auto-pairs'
     Plug 'andymass/vim-matchup'
     " IndentLine for easier interpretation of code blocks"
-    Plug 'Yggdroot/indentLine'
+		Plug 'lukas-reineke/indent-blankline.nvim'
 		Plug 'Omnisharp/omnisharp-vim'
     " Colorscheme plugin"
     Plug 'rose-pine/neovim'
