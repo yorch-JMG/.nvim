@@ -12,9 +12,8 @@
    inoremap jh <Esc>
    nnoremap H gT
    nnoremap L gt
+	 nnoremap <C-n> :NvimTreeToggle<CR>
     nmap <leader>rs :source ~/.config/nvim/init.vim<CR>
-   "Hides and shows NERDTree"
-    map <C-n> :NERDTreeToggle<CR>
     "Files in directory"
 		nmap <leader>f :Telescope find_files<CR>
     "Search in lines of buffer"

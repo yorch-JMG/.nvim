@@ -16,6 +16,7 @@ lua <<EOF
     incremental_selection = { enable = true },
     textobjects = { enable = true },
   }
+require'nvim-tree'.setup()
 require('telescope').setup({
 	defaults = { file_ignore_patterns = {"node_modules", "autoload"} }
 })

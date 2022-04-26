@@ -50,8 +50,9 @@ endif
 		Plug 'mattn/emmet-vim'
     Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
     "File Explorer"
-    Plug 'scrooloose/NERDTree'
     Plug 'ryanoasis/vim-devicons'
+		Plug 'kyazdani42/nvim-web-devicons'
+		Plug 'kyazdani42/nvim-tree.lua'
 		"Nerd commenter"
     Plug 'preservim/nerdcommenter'
     "Find differences in file with git repo"
