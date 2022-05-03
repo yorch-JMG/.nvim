@@ -30,13 +30,9 @@ endif
     "Treesitter"
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'neovim/nvim-lspconfig'
-    Plug 'hrsh7th/cmp-nvim-lsp'
-    Plug 'hrsh7th/cmp-buffer'
-    Plug 'hrsh7th/cmp-path'
-    Plug 'hrsh7th/cmp-cmdline'
-    Plug 'hrsh7th/nvim-cmp'
-    Plug 'hrsh7th/cmp-vsnip'
-    Plug 'hrsh7th/vim-vsnip'
+		Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
+		Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
+		Plug 'ms-jpq/coq.thirdparty', {'branch': '3p'}
 		Plug 'simrat39/rust-tools.nvim'
 
     "Telescope"
@@ -72,17 +68,18 @@ endif
     " Colorscheme plugin"
     Plug 'rose-pine/neovim'
     Plug 'sainnhe/gruvbox-material'
-    Plug 'doums/darcula'
 		Plug 'dracula/vim', { 'as': 'dracula' }
-    Plug 'morhetz/gruvbox'
     Plug 'nanotech/jellybeans.vim'
-    Plug 'NLKNguyen/papercolor-theme'
     Plug 'dunstontc/vim-vscode-theme'
     Plug 'chriskempson/base16-vim'
 		Plug 'bluz71/vim-moonfly-colors'
 		Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 		Plug 'ayu-theme/ayu-vim' 		
 		Plug 'luisiacc/gruvbox-baby', {'branch': 'main'}
+		Plug 'rebelot/kanagawa.nvim'
+		Plug 'marko-cerovac/material.nvim'
+		Plug 'andreasvc/vim-256noir'
+
 		Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install --frozen-lockfile --production',
   \ 'branch': 'release/0.x'
