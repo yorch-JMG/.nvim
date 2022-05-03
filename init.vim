@@ -18,7 +18,7 @@ lua <<EOF
     textobjects = { enable = true },
   }
 require('lualine').setup({
-	options={theme='moonfly'}
+	options={theme='gruvbox'}
 })
 require'nvim-tree'.setup()
 require('telescope').setup({

@@ -11,7 +11,7 @@ set guifont=JetBrainsMono\ Nerd\ Font:h10:cANSI
 set t_Co=256
 set clipboard=unnamedplus
 
-colorscheme moonfly
+colorscheme gruvbox-baby
 let g:OmniSharp_highlighting = 0
 hi SignColumn guibg=NONE ctermbg=NONE
 hi LineNr ctermbg=NONE guibg=NONE

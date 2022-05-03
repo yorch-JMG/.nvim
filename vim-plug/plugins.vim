@@ -82,6 +82,7 @@ endif
 		Plug 'bluz71/vim-moonfly-colors'
 		Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 		Plug 'ayu-theme/ayu-vim' 		
+		Plug 'luisiacc/gruvbox-baby', {'branch': 'main'}
 		Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install --frozen-lockfile --production',
   \ 'branch': 'release/0.x'
