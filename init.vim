@@ -16,9 +16,13 @@ lua <<EOF
     incremental_selection = { enable = true },
     textobjects = { enable = true },
   }
+require('lualine').setup({
+	options={theme='moonfly'}
+})
 require'nvim-tree'.setup()
 require('telescope').setup({
-	defaults = { file_ignore_patterns = {"node_modules", "autoload"} }
+	defaults = { file_ignore_patterns = {"node_modules", "autoload"},
+	preview= false}
 })
    local cmp = require'cmp'
 

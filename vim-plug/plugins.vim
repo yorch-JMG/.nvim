@@ -20,6 +20,9 @@ endif
 		Plug 'fatih/vim-go'
 		Plug 'rust-lang/rust.vim'
 
+		Plug 'SirVer/ultisnips'
+		Plug 'mlaursen/vim-react-snippets'
+
     "Easymotion to move quickly between lines"
     Plug 'easymotion/vim-easymotion'
     "Treesitter"
@@ -43,10 +46,9 @@ endif
 		"LUA colorizer"
 		Plug 'norcalli/nvim-colorizer.lua'
 
-		"Airline"
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
-    " Plug in to make html development faster"
+		"Statusline"
+		Plug 'nvim-lualine/lualine.nvim'
+		" Plug in to make html development faster"
 		Plug 'mattn/emmet-vim'
     Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
     "File Explorer"
@@ -76,6 +78,8 @@ endif
     Plug 'dunstontc/vim-vscode-theme'
     Plug 'chriskempson/base16-vim'
 		Plug 'bluz71/vim-moonfly-colors'
+		Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+		Plug 'ayu-theme/ayu-vim' 		
 		Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install --frozen-lockfile --production',
   \ 'branch': 'release/0.x'

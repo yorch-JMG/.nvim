@@ -18,7 +18,6 @@
 		nmap <leader>f :Telescope find_files<CR>
     "Search in lines of buffer"
     nmap <leader>l :BLines<CR>
-    nmap <leader>fl :Rg!<CR>
     "Commits on branch"
     nmap <leader>c :BCommits<CR>
     "Git files status"
@@ -59,9 +58,4 @@
 
 		nmap <leader>cs :OmniSharpCodeFormat<CR>
 
-   "Flutter run"
-    nnoremap <leader>fa :FlutterRun<cr>
-    nnoremap <leader>fq :FlutterQuit<cr>
-    nnoremap <leader>fr :FlutterHotReload<cr>
-    nnoremap <leader>fR :FlutterHotRestart<cr>
-    nnoremap <leader>fD :FlutterVisualDebug<cr>
+
