@@ -20,6 +20,8 @@ endif
 		Plug 'fatih/vim-go'
 		Plug 'rust-lang/rust.vim'
 
+		Plug 'goolord/alpha-nvim'
+
 		Plug 'SirVer/ultisnips'
 		Plug 'mlaursen/vim-react-snippets'
 
