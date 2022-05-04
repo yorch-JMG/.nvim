@@ -69,7 +69,6 @@ endif
     Plug 'rose-pine/neovim'
     Plug 'sainnhe/gruvbox-material'
 		Plug 'dracula/vim', { 'as': 'dracula' }
-    Plug 'nanotech/jellybeans.vim'
     Plug 'dunstontc/vim-vscode-theme'
     Plug 'chriskempson/base16-vim'
 		Plug 'bluz71/vim-moonfly-colors'
@@ -79,6 +78,13 @@ endif
 		Plug 'rebelot/kanagawa.nvim'
 		Plug 'marko-cerovac/material.nvim'
 		Plug 'andreasvc/vim-256noir'
+		Plug 't184256/vim-boring'
+		Plug 'jaredgorski/fogbell.vim'
+		Plug 'jdsimcoe/hyper.vim'
+		Plug 'rktjmp/lush.nvim'
+		Plug 'metalelf0/jellybeans-nvim'
+		Plug 'noahfrederick/vim-noctu'
+
 
 		Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install --frozen-lockfile --production',

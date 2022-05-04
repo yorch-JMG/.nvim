@@ -7,17 +7,13 @@
 "                         __/ |
 "                       |___/ 
 
+set termguicolors
 set guifont=JetBrainsMono\ Nerd\ Font:h10:cANSI
 set t_Co=256
 set clipboard=unnamedplus
 
-
-colorscheme 256_noir
+colorscheme boring
 let g:OmniSharp_highlighting = 0
-hi SignColumn guibg=NONE ctermbg=NONE
-hi LineNr ctermbg=NONE guibg=NONE
-hi Normal ctermbg=NONE guibg=NONE
-set termguicolors
 set number
 set relativenumber
 set tabstop=2
@@ -26,4 +22,10 @@ set timeoutlen=300
 let g:prettier#autoformat = 1
 let mapleader = " "
 let g:user_emmet_leader_key = ","
+hi SignColumn guibg=NONE ctermbg=NONE
+hi LineNr ctermbg=NONE guibg=NONE
+hi Normal ctermbg=NONE guibg=NONE
+hi TabLine    gui=NONE guibg=#000000 guifg=#abb2bf    cterm=NONE term=NONE ctermfg=black ctermbg=white
+hi TabLineFill    gui=NONE guibg=#000000 guifg=#abb2bf    cterm=NONE term=NONE ctermfg=black ctermbg=white
+hi TabLineSel    gui=NONE guibg=#ffffff guifg=#000000    cterm=NONE term=NONE ctermfg=black ctermbg=white
 
