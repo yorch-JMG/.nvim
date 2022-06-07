@@ -19,6 +19,7 @@ endif
 
 		Plug 'fatih/vim-go'
 		Plug 'rust-lang/rust.vim'
+		Plug 'rhysd/vim-clang-format'
 
 		Plug 'goolord/alpha-nvim'
 
@@ -40,6 +41,7 @@ endif
     Plug 'nvim-telescope/telescope.nvim'
 		Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 		Plug 'junegunn/fzf.vim'
+		Plug 'NTBBloodbath/rest.nvim'
 
 		"LUA colorizer"
 		Plug 'norcalli/nvim-colorizer.lua'
@@ -67,23 +69,24 @@ endif
 		Plug 'Omnisharp/omnisharp-vim'
     " Colorscheme plugin"
     Plug 'rose-pine/neovim'
-    Plug 'sainnhe/gruvbox-material'
 		Plug 'dracula/vim', { 'as': 'dracula' }
-    Plug 'dunstontc/vim-vscode-theme'
     Plug 'chriskempson/base16-vim'
 		Plug 'bluz71/vim-moonfly-colors'
 		Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 		Plug 'ayu-theme/ayu-vim' 		
-		Plug 'luisiacc/gruvbox-baby', {'branch': 'main'}
+		Plug 'ellisonleao/gruvbox.nvim'
 		Plug 'rebelot/kanagawa.nvim'
-		Plug 'marko-cerovac/material.nvim'
 		Plug 'andreasvc/vim-256noir'
 		Plug 't184256/vim-boring'
-		Plug 'jaredgorski/fogbell.vim'
 		Plug 'jdsimcoe/hyper.vim'
 		Plug 'rktjmp/lush.nvim'
-		Plug 'metalelf0/jellybeans-nvim'
+		Plug 'nanotech/jellybeans.vim'
 		Plug 'noahfrederick/vim-noctu'
+		Plug 'ryanpcmcquen/true-monochrome_vim'
+		Plug 'Lokaltog/vim-monotone'
+		Plug 'Mofiqul/vscode.nvim'
+		Plug 'NLKNguyen/papercolor-theme'
+
 
 
 		Plug 'prettier/vim-prettier', {

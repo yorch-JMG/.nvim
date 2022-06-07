@@ -12,13 +12,19 @@ let g:coq_settings = { 'auto_start': 'shut-up' }
 lua <<EOF
 	require'alpha'.setup(require'alpha.themes.dashboard'.config)
 	require'colorizer'.setup()
+	require("rest-nvim").setup({
+	skip_ssl_verification = true,
+	})
   require'nvim-treesitter.configs'.setup {
     -- Modules and its options go here
     highlight = { enable = true },
     incremental_selection = { enable = true },
+		ensure_installed = {"http", "json"},
     textobjects = { enable = true },
   }
-require('lualine').setup()
+require('lualine').setup{
+	options = {theme = "gruvbox"}
+}
 require'nvim-tree'.setup()
 require('telescope').setup({
 	defaults = { file_ignore_patterns = {"node_modules", "autoload"},
@@ -34,7 +40,6 @@ local coq = require"coq"
  	require('rust-tools').setup(coq.lsp_ensure_capabilities())
  	require'lspconfig'.cssls.setup(coq.lsp_ensure_capabilities())
  	require'lspconfig'.tailwindcss.setup(coq.lsp_ensure_capabilities())
- 	require'lspconfig'.csharp_ls.setup(coq.lsp_ensure_capabilities())
  	require'lspconfig'.gopls.setup(coq.lsp_ensure_capabilities(
 		 {
 				cmd = {"gopls", "serve"},
