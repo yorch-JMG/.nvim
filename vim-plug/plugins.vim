@@ -68,24 +68,17 @@ endif
 		Plug 'lukas-reineke/indent-blankline.nvim'
 		Plug 'Omnisharp/omnisharp-vim'
     " Colorscheme plugin"
-    Plug 'rose-pine/neovim'
-		Plug 'dracula/vim', { 'as': 'dracula' }
     Plug 'chriskempson/base16-vim'
-		Plug 'bluz71/vim-moonfly-colors'
-		Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-		Plug 'ayu-theme/ayu-vim' 		
-		Plug 'ellisonleao/gruvbox.nvim'
-		Plug 'rebelot/kanagawa.nvim'
-		Plug 'andreasvc/vim-256noir'
-		Plug 't184256/vim-boring'
 		Plug 'jdsimcoe/hyper.vim'
-		Plug 'rktjmp/lush.nvim'
-		Plug 'nanotech/jellybeans.vim'
-		Plug 'noahfrederick/vim-noctu'
-		Plug 'ryanpcmcquen/true-monochrome_vim'
-		Plug 'Lokaltog/vim-monotone'
 		Plug 'Mofiqul/vscode.nvim'
 		Plug 'NLKNguyen/papercolor-theme'
+		Plug 'projekt0n/github-nvim-theme'
+		Plug 'tanvirtin/monokai.nvim'
+		Plug 'shaeinst/roshnivim-cs'
+		Plug 'catppuccin/nvim'
+		Plug 'haishanh/night-owl.vim'
+		Plug 'widatama/vim-phoenix'
+
 
 
 

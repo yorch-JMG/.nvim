@@ -6,7 +6,6 @@
 "  \___\___/|_| |_|_| |_|\__, |
 "                         __/ |
 "                       |___/ 
-
 set termguicolors
 set t_Co=256
 set clipboard=unnamedplus
@@ -14,18 +13,20 @@ set clipboard=unnamedplus
 let g:vscode_style = "dark"
 let g:vscode_transparency = 1
 set background=dark
-colorscheme gruvbox
+let g:catppuccin_flavour = "mocha"
+colorscheme phoenix 
 let g:OmniSharp_highlighting = 0
 set number
 set relativenumber
-set tabstop=2
-set shiftwidth=2
+set smartindent
+set expandtab
+set ts=2 sw=2
 set timeoutlen=300
 let g:prettier#autoformat = 1
 let mapleader = " "
 let g:user_emmet_leader_key = ","
+hi Normal guibg=NONE ctermbg=NONE
 hi SignColumn guibg=NONE ctermbg=NONE
-hi Normal ctermbg=NONE guibg=NONE
 hi LineNr ctermbg=NONE guibg=NONE
 hi TabLine    gui=NONE guibg=#000000 guifg=#abb2bf    cterm=NONE term=NONE ctermfg=black ctermbg=white
 hi TabLineFill    gui=NONE guibg=#000000 guifg=#abb2bf    cterm=NONE term=NONE ctermfg=black ctermbg=white
