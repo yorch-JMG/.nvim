@@ -31,24 +31,23 @@ endif
     "Treesitter"
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'neovim/nvim-lspconfig'
-		Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
-		Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
-		Plug 'ms-jpq/coq.thirdparty', {'branch': '3p'}
+    Plug 'hrsh7th/cmp-nvim-lsp'
+    Plug 'hrsh7th/cmp-buffer'
+    Plug 'hrsh7th/cmp-path'
+    Plug 'hrsh7th/cmp-cmdline'
+    Plug 'hrsh7th/nvim-cmp'
 		Plug 'simrat39/rust-tools.nvim'
 
-    "Telescope"
-    Plug 'nvim-lua/plenary.nvim'
-    Plug 'nvim-telescope/telescope.nvim'
-		Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-		Plug 'junegunn/fzf.vim'
-		Plug 'NTBBloodbath/rest.nvim'
+    Plug 'ibhagwan/fzf-lua', {'branch': 'main'}
 
 		"LUA colorizer"
 		Plug 'norcalli/nvim-colorizer.lua'
 
 		"Statusline"
 		Plug 'nvim-lualine/lualine.nvim'
-		" Plug in to make html development faster"
+    Plug 'norcalli/nvim-base16.lua' 
+    
+    "Plug in to make html development faster"
 		Plug 'mattn/emmet-vim'
     Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
     "File Explorer"
@@ -68,7 +67,7 @@ endif
 		Plug 'lukas-reineke/indent-blankline.nvim'
 		Plug 'Omnisharp/omnisharp-vim'
     " Colorscheme plugin"
-    Plug 'chriskempson/base16-vim'
+    Plug 'morhetz/gruvbox'
 		Plug 'jdsimcoe/hyper.vim'
 		Plug 'Mofiqul/vscode.nvim'
 		Plug 'NLKNguyen/papercolor-theme'
@@ -78,8 +77,20 @@ endif
 		Plug 'catppuccin/nvim'
 		Plug 'haishanh/night-owl.vim'
 		Plug 'widatama/vim-phoenix'
-
-
+		Plug 'arcticicestudio/nord-vim'
+		Plug 'nanotech/jellybeans.vim'
+		Plug 'bluz71/vim-moonfly-colors'
+		Plug 'artanikin/vim-synthwave84'
+		Plug 'arzg/vim-colors-xcode'
+    Plug 'embark-theme/vim', { 'as': 'embark', 'branch': 'main' }
+    Plug 'frenzyexists/aquarium-vim', { 'branch': 'develop' }
+    Plug 'rmehri01/onenord.nvim'
+    Plug 'whatyouhide/vim-gotham'
+    Plug 'pbrisbin/vim-colors-off'
+    Plug 'rebelot/kanagawa.nvim'
+    Plug 'ray-x/starry.nvim'
+    Plug 'folke/tokyonight.nvim'
+    Plug 'vimoxide/vim-cinnabar'
 
 
 		Plug 'prettier/vim-prettier', {

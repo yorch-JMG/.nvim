@@ -17,7 +17,7 @@
 	 nmap <leader>rq <Plug>RestNvim<CR>
     nmap <leader>rs :source ~/.config/nvim/init.vim<CR>
     "Files in directory"
-		nmap <leader>f :Telescope find_files<CR>
+		nmap <leader>f :FzfLua files<CR>
     "Search in lines of buffer"
     nmap <leader>l :BLines<CR>
     "Commits on branch"
