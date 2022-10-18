@@ -20,7 +20,8 @@ let g:OmniSharp_highlighting = 0
 set number
 set relativenumber
 set expandtab
-set ts=2 sw=2
+set tabstop=4 
+set shiftwidth=4
 set timeoutlen=300
 let g:prettier#autoformat = 1
 let mapleader = " "

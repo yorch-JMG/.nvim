@@ -24,6 +24,8 @@ endif
 		Plug 'goolord/alpha-nvim'
 
 		Plug 'SirVer/ultisnips'
+    Plug 'quangnguyen30192/cmp-nvim-ultisnips'
+
 		Plug 'mlaursen/vim-react-snippets'
 
     "Easymotion to move quickly between lines"
