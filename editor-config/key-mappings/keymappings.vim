@@ -17,9 +17,10 @@
 	 nmap <leader>rq <Plug>RestNvim<CR>
     nmap <leader>rs :source ~/.config/nvim/init.vim<CR>
     "Files in directory"
-		nmap <leader>f :FzfLua files<CR>
+		nmap <leader>f :Files<CR>
     "Search in lines of buffer"
     nmap <leader>l :BLines<CR>
+    nmap <leader>rg :Rg<CR>
     "Commits on branch"
     nmap <leader>c :BCommits<CR>
     "Git files status"

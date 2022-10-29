@@ -39,6 +39,8 @@ endif
     Plug 'hrsh7th/cmp-cmdline'
     Plug 'hrsh7th/nvim-cmp'
 		Plug 'simrat39/rust-tools.nvim'
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
     Plug 'ibhagwan/fzf-lua', {'branch': 'main'}
 
@@ -69,7 +71,8 @@ endif
 		Plug 'lukas-reineke/indent-blankline.nvim'
 		Plug 'Omnisharp/omnisharp-vim'
     " Colorscheme plugin"
-    Plug 'morhetz/gruvbox'
+    Plug 'sainnhe/gruvbox-material'
+    Plug 'dracula/vim', { 'as': 'dracula' }
 		Plug 'jdsimcoe/hyper.vim'
 		Plug 'Mofiqul/vscode.nvim'
 		Plug 'NLKNguyen/papercolor-theme'
@@ -93,6 +96,8 @@ endif
     Plug 'ray-x/starry.nvim'
     Plug 'folke/tokyonight.nvim'
     Plug 'vimoxide/vim-cinnabar'
+    Plug 'morhetz/gruvbox'
+    Plug 'rose-pine/neovim'
 
 
 		Plug 'prettier/vim-prettier', {
